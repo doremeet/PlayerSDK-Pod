@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = { "Yogev Barber" => "yogev@iband.io" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/doremeet/PlayerSDK-Pod.git", :tag => "#{s.version}" }  
-  s.vendored_frameworks = 'IBandPlayerSDK/IBandPlayerSDKv#{s.version}.framework'
+  s.vendored_frameworks = 'IBandPlayerSDK/IBandPlayerSDK.framework'
   s.ios.deployment_target = '8.0'
   s.frameworks = 'UIKit', 'SystemConfiguration', 'coreMedia', 'coreGraphics', 'coreMotion', 'GLKit', 'AudioToolbox', 'AVFoundation', 'OpenGLES'
   s.library   = "c++"
