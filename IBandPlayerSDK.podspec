@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :http => "https://s3.eu-central-1.amazonaws.com/iband-io/IBandPlayerPod/IBandPlayerSDK.zip" }  
   s.vendored_frameworks = 'IBandPlayerSDK/IBandPlayerSDK.framework'
-  s.resource     = "IBandPlayerSDK/IBandPlayerSDK.framework/Shader.{fsh,vsh}"
+  s.resource     = "IBandPlayerSDK/Resources/Shader.{fsh,vsh}"
   s.ios.deployment_target = '8.0'
   s.frameworks = 'UIKit', 'SystemConfiguration', 'coreMedia', 'coreGraphics', 'coreMotion', 'GLKit', 'AudioToolbox', 'AVFoundation', 'OpenGLES'
   s.library   = "c++"
