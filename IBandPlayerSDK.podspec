@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "IBandPlayerSDK"
-  s.version               = "0.1.1"
+  s.version               = "0.2.0"
   s.summary               = "iOS library to play streams from IBand"
   s.homepage              = "http://www.iband.io"
   s.author                = { "Yogev Barber" => "yogev@iband.io" }
