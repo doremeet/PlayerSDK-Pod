@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "http://www.iband.io"
   s.author                = { "Yogev Barber" => "yogev@iband.io" }
   s.platform              = :ios
-  s.source                = { :http => "https://raw.githubusercontent.com/doremeet/PlayerSDK-Pod/v#{s.version}/IBandPlayerSDK.zip" }  
+  s.source                = { :http => "https://raw.githubusercontent.com/doremeet/PlayerSDK-Pod/v#{s.version}/IBandPlayerSDK/IBandPlayerSDK.framework" }  
   s.vendored_frameworks   = 'IBandPlayerSDK/IBandPlayerSDK.framework'
   s.resource              = "IBandPlayerSDK/Resources/Shader.{fsh,vsh}"
   s.ios.deployment_target = '8.0'
