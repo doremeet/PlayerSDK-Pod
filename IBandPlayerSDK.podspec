@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
       Copyright 2017 IBand, Inc. All rights reserved.
       LICENSE
   }
+  s.dependency 'AFNetworking', '~> 3.0'
 end
