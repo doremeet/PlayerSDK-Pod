@@ -32,5 +32,7 @@ FOUNDATION_EXPORT const unsigned char IBandPlayerSDKVersionString[];
 #import <IBandPlayerSDK/IBandDelegatable.h>
 #import <IBandPlayerSDK/IBandDisposable.h>
 #import <IBandPlayerSDK/IBandNetworkGetaway.h>
+#import <IBandPlayerSDK/DelegatesArray.h>
+
 
 
