@@ -1,0 +1,6 @@
+framework module IBandPlayerSDK {
+  umbrella header "IBandPlayerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

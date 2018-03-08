@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name                  = "IBandPlayerSDK"
-  s.version               = "0.3.6"
+  s.version               = "0.3.7"
   s.summary               = "iOS library to play streams from IBand"
   s.homepage              = "http://www.iband.io"
   s.author                = { "Yogev Barber" => "yogev@iband.io" }
   s.platform              = :ios
   s.source                = { :http => "https://raw.githubusercontent.com/doremeet/PlayerSDK-Pod/v#{s.version}/IBandPlayerSDK.zip" }  
-  s.vendored_frameworks   = 'IBandPlayerSDK/IBandPlayerSDK.framework'
-  s.resource              = "IBandPlayerSDK/IBandPlayerSDK.framework/Shader.{fsh,vsh}"
+  s.vendored_frameworks   = 'IBandPlayerSDK.framework'
+  s.resource              = "IBandPlayerSDK.framework/Shader.{fsh,vsh}"
   s.ios.deployment_target = '8.0'
   s.frameworks            = 'SystemConfiguration', 'coreMedia', 'coreGraphics', 'coreMotion', 'GLKit', 'AudioToolbox', 'AVFoundation', 'OpenGLES'
   s.library               = "c++"
@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
       LICENSE
   }
   s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'SocketRocket', '~> 0.5.1'
 end
