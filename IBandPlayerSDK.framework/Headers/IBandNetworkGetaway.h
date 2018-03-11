@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface IBandNetworkGetaway : NSObject
--(void)postWithUrl:(NSString*)url params:(NSDictionary*)params headers:(NSDictionary*)headers completionHandler:(void (^)(NSData * data, NSURLResponse * response, NSError * error))completionHandler;
--(void)getWithUrl:(NSString*)url params:(NSDictionary*)params headers:(NSDictionary*)headers completionHandler:(void (^)(NSData * data, NSURLResponse * response, NSError * error))completionHandler;
+-(void)postWithUrl:(NSString*)url params:(NSDictionary*)params headers:(NSDictionary*)headers completionHandler:(void (^)(NSDictionary * data, NSURLResponse * response, NSError * error))completionHandler;
+-(void)getWithUrl:(NSString*)url params:(NSDictionary*)params headers:(NSDictionary*)headers completionHandler:(void (^)(NSDictionary * data, NSURLResponse * response, NSError * error))completionHandler;
 -(void)cancelLastRequset;
 @end
