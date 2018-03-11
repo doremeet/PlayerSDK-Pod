@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "IBandPlayerSDK"
-  s.version               = "0.3.8"
+  s.version               = "0.3.9"
   s.summary               = "iOS library to play streams from IBand"
   s.homepage              = "http://www.iband.io"
   s.author                = { "Yogev Barber" => "yogev@iband.io" }
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source                = { :http => "https://raw.githubusercontent.com/doremeet/PlayerSDK-Pod/v#{s.version}/IBandPlayerSDK.zip" }  
   s.vendored_frameworks   = 'IBandPlayerSDK.framework'
   s.resource              = "IBandPlayerSDK.framework/Shader.{fsh,vsh}"
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.2'
   s.frameworks            = 'SystemConfiguration', 'coreMedia', 'coreGraphics', 'coreMotion', 'GLKit', 'AudioToolbox', 'AVFoundation', 'OpenGLES'
   s.library               = "c++"
   s.requires_arc          = true

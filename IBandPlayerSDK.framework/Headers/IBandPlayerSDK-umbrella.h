@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "IBandPlayerSDK.h"
 #import "IBandSDK.h"
 #import "IBandPlayer.h"
 #import "IBandError.h"
@@ -28,6 +29,7 @@
 #import "IBandDisposable.h"
 #import "IBandNetworkGetaway.h"
 #import "DelegatesArray.h"
+#import "IBandAbstractPlayer.h"
 
 FOUNDATION_EXPORT double IBandPlayerSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char IBandPlayerSDKVersionString[];
