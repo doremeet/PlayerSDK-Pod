@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define SDK_VERSION @"0.3.6"
+#define SDK_VERSION @"0.3.10"
 #define SDK_BUILD_NUMBER @"4"
 
 @class IBandPlayer;
